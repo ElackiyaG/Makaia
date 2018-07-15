@@ -400,5 +400,11 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 	{
 		driver.getKeyboard().sendKeys(Keys.ESCAPE);
 	}
+	
+	public String getTitle()
+	{
+		return driver.getTitle();
+		
+	}
 
 }
